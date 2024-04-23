@@ -39,8 +39,10 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="WASABI Juce test implementation"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="WASABI Juce test implementation"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WASABI Juce test implementation"
+                       headerPath="C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-access-management\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-core\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-identity-management\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-queues\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-s3-encryption\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-text-to-speech\include\aws&#10;C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp\src\aws-cpp-sdk-transfer\include\aws"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="WASABI Juce test implementation"
+                       headerPath="C:\Users\JOEL\Documents\VST PLUGINS\WASABI Juce test implementation\Source\aws-sdk-cpp"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_analytics" path="../../../../../JUCE/modules"/>
