@@ -628,6 +628,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\AudioPlayerComponent.cpp">
+      <Filter>WASABI Juce test implementation\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\AuthenticationComponent.cpp">
       <Filter>WASABI Juce test implementation\Source</Filter>
     </ClCompile>
@@ -3216,6 +3219,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\AudioPlayerComponent.h">
+      <Filter>WASABI Juce test implementation\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\AuthenticationListener.h">
       <Filter>WASABI Juce test implementation\Source</Filter>
     </ClInclude>

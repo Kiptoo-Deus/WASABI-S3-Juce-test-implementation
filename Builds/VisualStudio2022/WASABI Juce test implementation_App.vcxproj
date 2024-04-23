@@ -141,6 +141,7 @@
     <Lib/>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\AudioPlayerComponent.cpp"/>
     <ClCompile Include="..\..\Source\AuthenticationComponent.cpp"/>
     <ClCompile Include="..\..\Source\Main.cpp"/>
     <ClCompile Include="..\..\Source\MainComponent.cpp"/>
@@ -2558,6 +2559,7 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_extra.cpp"/>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\AudioPlayerComponent.h"/>
     <ClInclude Include="..\..\Source\AuthenticationListener.h"/>
     <ClInclude Include="..\..\Source\AuthenticationComponent.h"/>
     <ClInclude Include="..\..\Source\MainComponent.h"/>
