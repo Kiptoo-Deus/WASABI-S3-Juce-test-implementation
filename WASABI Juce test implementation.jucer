@@ -4,6 +4,12 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="FNJPIt" name="WASABI Juce test implementation">
     <GROUP id="{6299763D-F771-B9F2-D61C-893F15180983}" name="Source">
+      <FILE id="RLc3GK" name="AuthenticationListener.h" compile="0" resource="0"
+            file="Source/AuthenticationListener.h"/>
+      <FILE id="fgqIrk" name="AuthenticationComponent.cpp" compile="1" resource="0"
+            file="Source/AuthenticationComponent.cpp"/>
+      <FILE id="OckkrF" name="AuthenticationComponent.h" compile="0" resource="0"
+            file="Source/AuthenticationComponent.h"/>
       <FILE id="KL5e80" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="OqJOiI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="R08OCe" name="MainComponent.cpp" compile="1" resource="0"

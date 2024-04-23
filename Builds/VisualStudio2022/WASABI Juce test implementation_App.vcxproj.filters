@@ -628,6 +628,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\AuthenticationComponent.cpp">
+      <Filter>WASABI Juce test implementation\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>WASABI Juce test implementation\Source</Filter>
     </ClCompile>
@@ -3213,6 +3216,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\AuthenticationListener.h">
+      <Filter>WASABI Juce test implementation\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AuthenticationComponent.h">
+      <Filter>WASABI Juce test implementation\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MainComponent.h">
       <Filter>WASABI Juce test implementation\Source</Filter>
     </ClInclude>
