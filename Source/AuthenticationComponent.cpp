@@ -9,8 +9,8 @@
 */
 
 #include "AuthenticationComponent.h"
-#include "aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/Aws.h"
-#include "aws-sdk-cpp/generated/src/aws-cpp-sdk-s3/include/aws/s3/S3Client.h"
+#include "AWS/src/aws-cpp-sdk-core/include/aws/core/Aws.h"
+#include "AWS/generated/src/aws-cpp-sdk-s3/include/aws/s3/S3Client.h"
 
 AuthenticationComponent::AuthenticationComponent()
 {
