@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourcompany.wasabijucetestimplementation"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:4:3-5:51
+12        android:anyDensity="true"
+12-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:4:106-131
+13        android:largeScreens="true"
+13-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:4:78-105
+14        android:normalScreens="true"
+14-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:4:49-77
+15        android:smallScreens="true"
+15-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:4:21-48
+16        android:xlargeScreens="true" />
+16-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:5:21-49
+17
+18    <uses-permission
+18-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:6:3-105
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:6:20-76
+20        android:maxSdkVersion="28" />
+20-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:6:77-103
+21    <uses-permission
+21-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:7:3-104
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:7:20-75
+23        android:maxSdkVersion="32" />
+23-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:7:76-102
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+24-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:8:3-72
+24-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:8:20-70
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:9:3-73
+25-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:9:20-71
+26    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+26-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:10:3-72
+26-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:10:20-70
+27    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+27-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:11:3-83
+27-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:11:20-81
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:12:3-64
+28-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:12:20-62
+29
+30    <application
+30-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:13:3-23:17
+31        android:name="com.rmsl.juce.JuceApp"
+31-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:13:49-85
+32        android:debuggable="true"
+33        android:hardwareAccelerated="false"
+33-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:13:86-121
+34        android:label="@string/app_name"
+34-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:13:16-48
+35        android:testOnly="true" >
+36        <receiver
+36-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:14:5-79
+37            android:name="com.rmsl.juce.Receiver"
+37-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:14:15-52
+38            android:exported="false" />
+38-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:14:53-77
+39
+40        <activity
+40-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:15:5-22:16
+41            android:name="com.rmsl.juce.JuceActivity"
+41-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:15:15-56
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|navigation"
+42-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:15:57-138
+43            android:exported="true"
+43-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:17:15-38
+44            android:hardwareAccelerated="true"
+44-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:16:87-121
+45            android:launchMode="singleTask"
+45-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:16:55-86
+46            android:screenOrientation="unspecified" >
+46-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:16:15-54
+47            <intent-filter>
+47-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:18:7-21:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:19:9-60
+48-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:19:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:20:9-68
+50-->D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\AndroidManifest.xml:20:19-66
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>

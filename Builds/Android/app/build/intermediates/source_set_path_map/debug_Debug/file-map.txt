@@ -1,0 +1,10 @@
+com.yourcompany.wasabijucetestimplementation.app-debug_-0 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\generated\res\pngs\debug_\debug
+com.yourcompany.wasabijucetestimplementation.app-debug_-1 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\generated\res\resValues\debug_\debug
+com.yourcompany.wasabijucetestimplementation.app-debug_-2 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\generated\res\rs\debug_\debug
+com.yourcompany.wasabijucetestimplementation.app-mergeDebug_DebugResources-3 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\intermediates\incremental\debug_Debug\mergeDebug_DebugResources\merged.dir
+com.yourcompany.wasabijucetestimplementation.app-mergeDebug_DebugResources-4 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\intermediates\incremental\debug_Debug\mergeDebug_DebugResources\stripped.dir
+com.yourcompany.wasabijucetestimplementation.app-merged_res-5 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\build\intermediates\merged_res\debug_Debug
+com.yourcompany.wasabijucetestimplementation.app-debug-6 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\debug\res
+com.yourcompany.wasabijucetestimplementation.app-debug_-7 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\debug_\res
+com.yourcompany.wasabijucetestimplementation.app-debug_Debug-8 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\debug_Debug\res
+com.yourcompany.wasabijucetestimplementation.app-main-9 D:\WASABI-S3-Juce-test-implementation\Builds\Android\app\src\main\res

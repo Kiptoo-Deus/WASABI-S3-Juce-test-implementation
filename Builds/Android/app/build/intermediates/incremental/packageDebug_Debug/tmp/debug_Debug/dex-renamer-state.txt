@@ -1,0 +1,4 @@
+#Mon May 13 01:16:02 EAT 2024
+base.0=D\:\\WASABI-S3-Juce-test-implementation\\Builds\\Android\\app\\build\\intermediates\\dex\\debug_Debug\\mergeDexDebug_Debug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

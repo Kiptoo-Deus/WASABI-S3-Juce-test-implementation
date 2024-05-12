@@ -9,8 +9,7 @@
 */
 
 #include "AuthenticationComponent.h"
-#include "AWS/src/aws-cpp-sdk-core/include/aws/core/Aws.h"
-#include "AWS/generated/src/aws-cpp-sdk-s3/include/aws/s3/S3Client.h"
+
 
 AuthenticationComponent::AuthenticationComponent()
 {
@@ -108,39 +107,8 @@ juce::String AuthenticationComponent::getRegion() const
     return countryComboBox.getText();
 }
 
-//void AuthenticationComponent::submitButtonClicked()
-//{
-//    if (listener != nullptr)
-//        listener->authenticationSubmitted(getClubName(), getRegion());
-//}
 void AuthenticationComponent::submitButtonClicked()
 {
-    // Get the club name and region
-    juce::String clubName = getClubName();
-    juce::String region = getRegion();
-
-    // Initialize AWS credentials and S3 client
-    Aws::Auth::AWSCredentials credentials("access_key_id", "secret_key_id");
-    Aws::S3::S3Client s3Client(credentials, Aws::Client::ClientConfiguration(), region.toStdString());
-
-    // Prepare S3 object key and content
-    std::string bucketName = "your_bucket_name";
-    std::string objectKey = clubName.toStdString() + ".txt";
-    std::string content = "Club Name: " + clubName.toStdString() + "\nRegion: " + region.toStdString();
-
-    // Perform S3 upload
-    Aws::S3::Model::PutObjectRequest request;
-    request.WithBucket(bucketName.c_str()).WithKey(objectKey.c_str()).WithBody(Aws::MakeShared<Aws::StringStream>("UploadStream", content));
-
-    auto outcome = s3Client.PutObject(request);
-    if (outcome.IsSuccess())
-    {
-        // Upload successful
-        juce::AlertWindow::showMessageBox(juce::AlertWindow::InfoIcon, "Success", "Uploaded to S3 successfully!");
-    }
-    else
-    {
-        // Upload failed
-        juce::AlertWindow::showMessageBox(juce::AlertWindow::WarningIcon, "Error", "Failed to upload to S3: " + juce::String(outcome.GetError().GetMessage().c_str()));
-    }
+  if (listener != nullptr)
+       listener->authenticationSubmitted(getClubName(), getRegion());
 }
